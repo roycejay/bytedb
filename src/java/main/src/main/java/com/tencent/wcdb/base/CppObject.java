@@ -24,7 +24,7 @@ package com.tencent.wcdb.base;
 
 public class CppObject implements CppObjectConvertible {
     static {
-        System.loadLibrary("WCDB");
+        System.loadLibrary("ByteDB");
     }
 
     @Override

@@ -3,7 +3,10 @@ plugins {
 }
 apply from: file('../gradle/WeChatPublish.gradle')
 
-group 'com.tencent.wcdb'
+group 'com.github.roycejay'
+artifactId 'annotation'
+version '2.1.11'
+
 version file('../../../VERSION').text.trim()
 
 java {

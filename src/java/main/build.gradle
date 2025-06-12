@@ -1,6 +1,8 @@
 plugins {id 'com.android.library'}
 apply from: rootProject.file('gradle/WeChatPublish.gradle')
-
+group 'com.github.roycejay'
+artifactId 'main'
+version '2.1.11'
 android {
     namespace 'com.tencent.wcdb.core'
     compileSdk 33

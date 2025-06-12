@@ -20,7 +20,7 @@ buildscript {
 
 def myVersion = file('../../VERSION').text.trim()
 allprojects {
-    group 'com.tencent.wcdb'
+    group 'com.github.roycejay'
     version myVersion
 
     repositories {

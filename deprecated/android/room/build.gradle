@@ -35,12 +35,12 @@ wechatPublish {
     withJavadoc false
 
     publishToBintray {
-        repo = 'wcdb'
+        repo = 'bytedb'
         name = 'room'
         desc = ''
-        websiteUrl = 'https://github.com/Tencent/wcdb'
-        issueTrackerUrl = 'https://github.com/Tencent/wcdb/issues'
-        vcsUrl = 'https://github.com/Tencent/wcdb.git'
+        websiteUrl = 'https://github.com/roycejay/bytedb'
+        issueTrackerUrl = 'https://github.com/roycejay/bytedb/issues'
+        vcsUrl = 'https://github.com/roycejay/bytedb.git'
         licenses = ['BSD 3-Clause']
     }
 }
